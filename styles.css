@@ -1,0 +1,79 @@
+.transition-button{
+    background-color: blue;
+    color: white;
+    transition-duration: 0.5s;
+}
+.transition-button:hover{
+    background-color: green;
+}
+
+.transition-div{
+    width: 100px;
+    background-color: gray;
+    transition-duration: 1s;
+}
+.transition-div:hover {
+    width: 200px;
+}
+
+.transition-text{
+  font-size: 16px;
+  transition-duration: 0.3s;
+} 
+.transition-text:hover{
+    font-size: 24px;
+}
+
+.transition-image {
+    opacity:1;
+    transition:0.8s;
+}
+.transition-image:hover {
+    opacity:0.5;
+}
+
+.scale-div {
+    width: 100px;
+    background-color: purple;
+    transition:0.5s;
+}
+.scale-div:hover {
+    transform: scale(1.5);
+}
+
+.scale-image{
+    transition: 0.3s ease;
+}
+.scale-image:hover{
+    transform: scale(0.75);
+}
+
+.translate-button{
+    background-color: blue;
+    color: white; 
+    transition-duration: 0.5s;
+}
+.translate-button:hover {
+    transform: translate(50px, 20px);
+}
+
+.translate-div{
+    transition-duration: 0.5s;
+}
+.translate-div:hover{
+    transform: translateX(20px);
+}
+
+.skew-paragraph{
+    transition-duration: 0.5s;
+}
+.skew-paragraph:hover{
+    transform: skewX(20deg);
+}
+
+.skew-paragraph{
+    transition-duration: 0.5s;
+}
+.skew-paragraph:hover{
+    transform: skewY(15deg);
+}
